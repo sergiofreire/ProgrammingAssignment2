@@ -31,7 +31,7 @@
 ##
 ## The function makeCacheMatrix() creates an R object that stores a matrix and its inverse
 ## In addition, it returns a list of four functions (getters and setters)
-## that allows to set and get the values of the matrix and its inverse.
+## that allow to set and get the values of the matrix and its inverse.
 ##
 makeCacheMatrix <- function(x = matrix()) {
     inverseMatrix <- NULL
